@@ -12,6 +12,7 @@ def apps_entrance(request):
 server.PromptServer.instance.routes.static("/home/", 
 path=os.path.join(WEBROOT_APPS))  # Ruta para servir el archivo config.json
 
+#Esto lo meti por si las, porque le saltaba la ficha que no estaba / funcionaba pero daba un 'IMPORT FAIL'
 NODE_CLASS_MAPPINGS = {}
 __all__ = ['NODE_CLASS_MAPPINGS']
 
