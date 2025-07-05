@@ -1,2 +1,3 @@
 ComfyUI/
-imagenes/
+env/
+pycache/

@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  margin: 1rem;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"],
+.download-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button[type="submit"]:hover,
+.download-button:hover {
+  background-color: #555;
+}
+
+.output-section {
+  background: linear-gradient(45deg, #ccc 25%, transparent 25%),
+              linear-gradient(135deg, #ccc 25%, transparent 25%),
+              linear-gradient(45deg, transparent 75%, #ccc 75%),
+              linear-gradient(135deg, transparent 75%, #ccc 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  padding: 2rem;
+  border-radius: 5px;
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+#loader {
+  font-size: 20px;
+  color: red;
+  margin-top: 1rem;
+}
