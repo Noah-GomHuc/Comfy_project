@@ -1,1 +1,1 @@
-Projecto enfocado en Comfy_UI
+Proyecto enfocado en Comfy_UI
